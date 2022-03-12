@@ -4,9 +4,10 @@ export default function Footer() {
   return (
     <div className='footer'>
         <div className="footer--container">
-            <h1>Footer</h1>
+            <span>@foodconer</span>
+            <span>@2022 nigeriarecipes.com</span>
         </div>
-        <p>@2022 nigeriarecipes.com</p>
+       
 
     </div>
   )

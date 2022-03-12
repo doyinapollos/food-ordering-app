@@ -6,14 +6,14 @@ export default function Contact() {
         <div className="contact--div">
         
             <div className="contact--aside--left">
-                <img className='contact--img' src='https://app.stutern.com/opengraph.png' alt='' />
+                <img className='contact--img' src='https://www.oasdom.com/wp-content/uploads/2017/08/Oasdom-Nigerian-Food-recipes-Efo-Riro.jpg' alt='' />
             </div>
             
             <div className="contact--aside--right">
-                <h1>Contact Stutern</h1>
+                
                 <form className='contact--form'>
-                    <h2 className='stutern'>Stutern</h2>
-                    <p className='register'>Register</p>
+                    <h4>Contact Food Conner</h4>
+                    <p className='register'>Register</p> 
                     
                     <label htmlFor='name'>Full Name</label><br />
                     <input name='name' type='text' placeholder='full name' /><br />

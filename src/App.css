@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 70px;
-    background-color: red;
+    background: rgba(100, 3, 3, 0.9);
 }
 
 .navbar {
@@ -9,28 +9,81 @@
     height: inherit;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.navbar--logo--div {}
+.navbar--logo--div {
+    margin-left: 0px;
+}
 
 .navbar--logo {
     width: 100px;
     height: 60px;
     margin-left: 0px;
+    border-radius: 10px;
 }
 
 .navbar--ul {
-    width: 80%;
     display: flex;
     list-style-type: none;
     margin-right: 10px;
 }
 
+ul li {
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .home {
-    margin-top: 30px;
     width: 100%;
-    height: 400px;
-    background-image: url('https://cdn.thenigerianvoice.com/story/XGltYWdlc1xjb250ZW50XHU4cGN0MjFzcjRfbmlnZXJpYW5kaXNoZXMuanBnfDUwMHwzNTB8.jpg');
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(100, 3, 3, 0.9);
+}
+
+.home--div {
+    width: 80%;
+    height: 80vh;
+    background-image: url("https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-0404f4f/images/Nigerian-Food-Pounded-Yam.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.home--container {
+    width: 40%;
+    height: 70%;
+    background: rgba(253, 79, 35, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.nig--recipe {
+    font-size: 30px;
+}
+
+.home--btn {
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 .menu-item-div {
@@ -63,44 +116,106 @@
     height: 120px;
 }
 
-.about--img {
-    width: 100%;
-    height: 300px;
+.menu--pic--div {
+    width: 80vh;
+    height: 80vh;
 }
 
-.contact {
+.menu--pic {
+    width: 100vw;
+    height: 80vh;
+}
+
+.about {
     width: 100%;
-    height: auto;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+}
+
+.about--div {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.about--top--div {
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.about-bottom-div {
+    width: 80%;
+    height: 25%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.about--us {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about--img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.about--img:hover {
+    opacity: 1.0;
+}
+
+.contact {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(17, 17, 17, 0.7);
 }
 
 .contact--div {
-    width: 80vw;
-    height: auto;
+    width: 80%;
+    height: 80vh;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
 
 .contact--aside--left {
-    width: 50%;
-    height: auto;
-    background-color: red;
+    width: 47%;
+    height: 80%;
 }
 
 .contact--img {
     width: 100%;
     height: 100%;
+    opacity: 0.5;
+}
+
+.contact--img:hover {
+    opacity: 1.0;
 }
 
 .contact--aside--right {
-    width: 50%;
-    height: auto;
-    background-color: rgb(57, 223, 235);
+    width: 47%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -109,8 +224,26 @@
     flex-direction: column;
 }
 
+.btn-1 {
+    margin-bottom: 10px;
+}
+
 .footer {
     width: 100%;
-    height: 300px;
-    background-color: aquamarine;
+    height: 70px;
+    background: rgba(100, 3, 3, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+span {
+    margin-right: 20px;
 }
